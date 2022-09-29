@@ -4,8 +4,5 @@ using UnityEngine;
 
 public interface IUsable 
 {
-    public void Use()
-    {
-        Debug.Log("Success?");
-    }
+    public void Use();
 }

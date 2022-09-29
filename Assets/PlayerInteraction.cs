@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerInteraction : MonoBehaviour
+public class PlayerInteraction : MonoBehaviour, IUsable
 {
     public float maxDistance;
     IUsable target;
@@ -26,13 +26,17 @@ public class PlayerInteraction : MonoBehaviour
         if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, maxDistance))
         {
             //target;
-            Debug.Log(hit.collider.gameObject + " hi");
+            //Debug.Log(hit.collider.gameObject + " hi");
         }
         else target = null;
     }
-    void UseTarget()
+    public void UseTarget()
     {
-        //target.Use();
+        
+    }
+    public void Use()
+    {
+
     }
     void ChangeCrossHairState()
     {
