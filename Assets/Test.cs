@@ -6,6 +6,6 @@ public class Test : MonoBehaviour, IUsable
 {
     public void Use()
     {
-
+        Destroy(gameObject);
     }
 }
