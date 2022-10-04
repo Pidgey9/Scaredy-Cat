@@ -15,6 +15,7 @@ public class BearMove : MonoBehaviour
     public float speed;
     public Quaternion orientation;
     public float dist;
+    public Var score;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -40,5 +41,9 @@ public class BearMove : MonoBehaviour
             animator.SetBool("Idle", false);
             animator.SetBool("Run Forward", true);
         }
+        if (score.value == 4) rb.velocity *= 2;
+        else if (score.value == 5) rb.velocity *= 4;
+        else if (score.value == 6) rb.velocity *= 8;
+        else if (score.value >= 7) rb.velocity *= 16;
     }
 }

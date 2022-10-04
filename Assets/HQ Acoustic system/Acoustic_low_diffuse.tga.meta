@@ -1,55 +1,486 @@
 fileFormatVersion: 2
 guid: f00306a86ad5fc44a9c8e2ffbbeaea46
-timeCreated: 1437237372
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName: {}
-  serializedVersion: 2
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
-  buildTargetSettings: []
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 2
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
-    sprites: []
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fe9499d5ce45f44bb24b0ac9ea9618
+      internalID: 488344768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_1
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 3096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7392aa0ef00d9c40ab9c705717ddf24
+      internalID: -220156747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 3096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cd5e8566e5e644f9517c7d5656beb2
+      internalID: -763136949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_3
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 3096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6249e561eb591a64da95e73773a50246
+      internalID: 1821422894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13961151d5cef954396917236770e2ad
+      internalID: -1158354719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d41f5ab556ee24fab1e8dac9b33cc4
+      internalID: 1467477573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_6
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd559017edc67442b58907f9b00a546
+      internalID: 1254232699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_7
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 2096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a64937227e120345a963fb38fcda984
+      internalID: 433160631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85611c291dc7b4391be150d4d9fe95
+      internalID: -1186434852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ec002c8c6b92642b47cc38327ba6a9
+      internalID: 2014627508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_10
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede9a8d3093186e44a9fd5d0f724d374
+      internalID: 867460173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_11
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1096
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57d6bba1131b46499cbfbb066f6b98c
+      internalID: -213218815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a83d33cf91b842ba6c6589ffb4519
+      internalID: 1913232347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 96
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73344db177b61fa4db0eb0b1e9a9e640
+      internalID: 859439331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_14
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 96
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa62a78223d9dcb4eb882acec7552893
+      internalID: 1450344810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acoustic_low_diffuse_15
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 96
+        width: 850
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b336d5da29fe4da278a2d6bfc6850
+      internalID: 658715305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 53f1acd1eab7b904e917acdd6cdf6439
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Acoustic_low_diffuse_10: 867460173
+      Acoustic_low_diffuse_0: 488344768
+      Acoustic_low_diffuse_14: 1450344810
+      Acoustic_low_diffuse_11: -213218815
+      Acoustic_low_diffuse_9: 2014627508
+      Acoustic_low_diffuse_15: 658715305
+      Acoustic_low_diffuse_6: 1254232699
+      Acoustic_low_diffuse_2: -763136949
+      Acoustic_low_diffuse_1: -220156747
+      Acoustic_low_diffuse_13: 859439331
+      Acoustic_low_diffuse_5: 1467477573
+      Acoustic_low_diffuse_12: 1913232347
+      Acoustic_low_diffuse_3: 1821422894
+      Acoustic_low_diffuse_7: 433160631
+      Acoustic_low_diffuse_4: -1158354719
+      Acoustic_low_diffuse_8: -1186434852
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

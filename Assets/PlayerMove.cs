@@ -20,6 +20,7 @@ public class PlayerMove : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
         Vector3 direction = (cameraTransform.right * h) + (cameraTransform.forward * v);
         move = direction * speed * Time.deltaTime;
+        if (Input.GetKey(KeyCode.Space)) move *= 10;
         characterController.Move(move);
     }
 }
